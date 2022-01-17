@@ -1,0 +1,22 @@
+การ import class เข้ามาใช้งาน
+
+--------
+# วิธีที่ 1
+from exOOP import Color, เพิ่มชื่อคลาสจะมีกี่คลาสก็ได้ , 
+   //exOOP ชื่อ file  / Color คือชื่อ class
+
+if __name__ == '__main__':
+	corlor = Color('ใส่รายละเอียดสีที่ส่งค่าเข้ามา')
+	print(color.ฟังก์ชั่นใน class()) # การเรียกใช้
+
+--------
+# วิธีที่ 2
+import exOOP as ex
+
+
+if __name__ == '__main__':
+	color = ex.Color("color red",)
+	print(color.ฟังก์ชั่นใน class()) # การเรียกใช้
+
+	car = ex.Color_all()
+
